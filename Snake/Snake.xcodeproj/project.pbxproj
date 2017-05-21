@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C81F2A19727F4D00BF3E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F2919727F4D00BF3E92 /* Foundation.framework */; };
+		94C81F2C19727F4D00BF3E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F2B19727F4D00BF3E92 /* CoreGraphics.framework */; };
+		94C81F2E19727F4D00BF3E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F2D19727F4D00BF3E92 /* UIKit.framework */; };
+		94C81F3419727F4E00BF3E92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F3219727F4E00BF3E92 /* InfoPlist.strings */; };
+		94C81F3619727F4E00BF3E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C81F3519727F4E00BF3E92 /* main.m */; };
+		94C81F3A19727F4E00BF3E92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C81F3919727F4E00BF3E92 /* AppDelegate.m */; };
+		94C81F3D19727F4E00BF3E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F3B19727F4E00BF3E92 /* Main.storyboard */; };
+		94C81F4019727F4E00BF3E92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C81F3F19727F4E00BF3E92 /* ViewController.m */; };
+		94C81F4219727F4E00BF3E92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F4119727F4E00BF3E92 /* Images.xcassets */; };
+		94C81F4919727F4E00BF3E92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F4819727F4E00BF3E92 /* XCTest.framework */; };
+		94C81F4A19727F4E00BF3E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F2919727F4D00BF3E92 /* Foundation.framework */; };
+		94C81F4B19727F4E00BF3E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C81F2D19727F4D00BF3E92 /* UIKit.framework */; };
+		94C81F5319727F4E00BF3E92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F5119727F4E00BF3E92 /* InfoPlist.strings */; };
+		94C81F5519727F4E00BF3E92 /* SnakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C81F5419727F4E00BF3E92 /* SnakeTests.m */; };
+		94C81F6219727F8B00BF3E92 /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F5E19727F8B00BF3E92 /* Food.png */; };
+		94C81F6319727F8B00BF3E92 /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F5F19727F8B00BF3E92 /* GameBackground.png */; };
+		94C81F6419727F8B00BF3E92 /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F6019727F8B00BF3E92 /* MenuBackground.png */; };
+		94C81F6519727F8B00BF3E92 /* Snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C81F6119727F8B00BF3E92 /* Snake.png */; };
+		94C81F681972822B00BF3E92 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C81F671972822B00BF3E92 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C81F4C19727F4E00BF3E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C81F1E19727F4D00BF3E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C81F2519727F4D00BF3E92;
+			remoteInfo = Snake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94953F441BFE24E7005BFF2C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		94C81F2619727F4D00BF3E92 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C81F2919727F4D00BF3E92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94C81F2B19727F4D00BF3E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94C81F2D19727F4D00BF3E92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94C81F3119727F4E00BF3E92 /* Snake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snake-Info.plist"; sourceTree = "<group>"; };
+		94C81F3319727F4E00BF3E92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C81F3519727F4E00BF3E92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C81F3719727F4E00BF3E92 /* Snake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snake-Prefix.pch"; sourceTree = "<group>"; };
+		94C81F3819727F4E00BF3E92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94C81F3919727F4E00BF3E92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94C81F3C19727F4E00BF3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C81F3E19727F4E00BF3E92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94C81F3F19727F4E00BF3E92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94C81F4119727F4E00BF3E92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C81F4719727F4E00BF3E92 /* SnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C81F4819727F4E00BF3E92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94C81F5019727F4E00BF3E92 /* SnakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnakeTests-Info.plist"; sourceTree = "<group>"; };
+		94C81F5219727F4E00BF3E92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C81F5419727F4E00BF3E92 /* SnakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeTests.m; sourceTree = "<group>"; };
+		94C81F5E19727F8B00BF3E92 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		94C81F5F19727F8B00BF3E92 /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		94C81F6019727F8B00BF3E92 /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackground.png; sourceTree = "<group>"; };
+		94C81F6119727F8B00BF3E92 /* Snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snake.png; sourceTree = "<group>"; };
+		94C81F661972822B00BF3E92 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		94C81F671972822B00BF3E92 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C81F2319727F4D00BF3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F2C19727F4D00BF3E92 /* CoreGraphics.framework in Frameworks */,
+				94C81F2E19727F4D00BF3E92 /* UIKit.framework in Frameworks */,
+				94C81F2A19727F4D00BF3E92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C81F4419727F4E00BF3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F4919727F4E00BF3E92 /* XCTest.framework in Frameworks */,
+				94C81F4B19727F4E00BF3E92 /* UIKit.framework in Frameworks */,
+				94C81F4A19727F4E00BF3E92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C81F1D19727F4D00BF3E92 = {
+			isa = PBXGroup;
+			children = (
+				94C81F2F19727F4E00BF3E92 /* Snake */,
+				94C81F4E19727F4E00BF3E92 /* SnakeTests */,
+				94C81F2819727F4D00BF3E92 /* Frameworks */,
+				94C81F2719727F4D00BF3E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C81F2719727F4D00BF3E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C81F2619727F4D00BF3E92 /* Snake.app */,
+				94C81F4719727F4E00BF3E92 /* SnakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C81F2819727F4D00BF3E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94953F441BFE24E7005BFF2C /* Social.framework */,
+				94C81F2919727F4D00BF3E92 /* Foundation.framework */,
+				94C81F2B19727F4D00BF3E92 /* CoreGraphics.framework */,
+				94C81F2D19727F4D00BF3E92 /* UIKit.framework */,
+				94C81F4819727F4E00BF3E92 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C81F2F19727F4E00BF3E92 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				94C81F3819727F4E00BF3E92 /* AppDelegate.h */,
+				94C81F3919727F4E00BF3E92 /* AppDelegate.m */,
+				94C81F3B19727F4E00BF3E92 /* Main.storyboard */,
+				94C81F3E19727F4E00BF3E92 /* ViewController.h */,
+				94C81F3F19727F4E00BF3E92 /* ViewController.m */,
+				94C81F661972822B00BF3E92 /* Game.h */,
+				94C81F671972822B00BF3E92 /* Game.m */,
+				94C81F4119727F4E00BF3E92 /* Images.xcassets */,
+				94C81F3019727F4E00BF3E92 /* Supporting Files */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		94C81F3019727F4E00BF3E92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C81F5E19727F8B00BF3E92 /* Food.png */,
+				94C81F5F19727F8B00BF3E92 /* GameBackground.png */,
+				94C81F6019727F8B00BF3E92 /* MenuBackground.png */,
+				94C81F6119727F8B00BF3E92 /* Snake.png */,
+				94C81F3119727F4E00BF3E92 /* Snake-Info.plist */,
+				94C81F3219727F4E00BF3E92 /* InfoPlist.strings */,
+				94C81F3519727F4E00BF3E92 /* main.m */,
+				94C81F3719727F4E00BF3E92 /* Snake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C81F4E19727F4E00BF3E92 /* SnakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C81F5419727F4E00BF3E92 /* SnakeTests.m */,
+				94C81F4F19727F4E00BF3E92 /* Supporting Files */,
+			);
+			path = SnakeTests;
+			sourceTree = "<group>";
+		};
+		94C81F4F19727F4E00BF3E92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C81F5019727F4E00BF3E92 /* SnakeTests-Info.plist */,
+				94C81F5119727F4E00BF3E92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C81F2519727F4D00BF3E92 /* Snake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C81F5819727F4E00BF3E92 /* Build configuration list for PBXNativeTarget "Snake" */;
+			buildPhases = (
+				94C81F2219727F4D00BF3E92 /* Sources */,
+				94C81F2319727F4D00BF3E92 /* Frameworks */,
+				94C81F2419727F4D00BF3E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snake;
+			productName = Snake;
+			productReference = 94C81F2619727F4D00BF3E92 /* Snake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C81F4619727F4E00BF3E92 /* SnakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C81F5B19727F4E00BF3E92 /* Build configuration list for PBXNativeTarget "SnakeTests" */;
+			buildPhases = (
+				94C81F4319727F4E00BF3E92 /* Sources */,
+				94C81F4419727F4E00BF3E92 /* Frameworks */,
+				94C81F4519727F4E00BF3E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C81F4D19727F4E00BF3E92 /* PBXTargetDependency */,
+			);
+			name = SnakeTests;
+			productName = SnakeTests;
+			productReference = 94C81F4719727F4E00BF3E92 /* SnakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C81F1E19727F4D00BF3E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Agney Patel";
+				TargetAttributes = {
+					94C81F4619727F4E00BF3E92 = {
+						TestTargetID = 94C81F2519727F4D00BF3E92;
+					};
+				};
+			};
+			buildConfigurationList = 94C81F2119727F4D00BF3E92 /* Build configuration list for PBXProject "Snake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C81F1D19727F4D00BF3E92;
+			productRefGroup = 94C81F2719727F4D00BF3E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C81F2519727F4D00BF3E92 /* Snake */,
+				94C81F4619727F4E00BF3E92 /* SnakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C81F2419727F4D00BF3E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F4219727F4E00BF3E92 /* Images.xcassets in Resources */,
+				94C81F3419727F4E00BF3E92 /* InfoPlist.strings in Resources */,
+				94C81F6519727F8B00BF3E92 /* Snake.png in Resources */,
+				94C81F6419727F8B00BF3E92 /* MenuBackground.png in Resources */,
+				94C81F3D19727F4E00BF3E92 /* Main.storyboard in Resources */,
+				94C81F6319727F8B00BF3E92 /* GameBackground.png in Resources */,
+				94C81F6219727F8B00BF3E92 /* Food.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C81F4519727F4E00BF3E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F5319727F4E00BF3E92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C81F2219727F4D00BF3E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F4019727F4E00BF3E92 /* ViewController.m in Sources */,
+				94C81F3A19727F4E00BF3E92 /* AppDelegate.m in Sources */,
+				94C81F3619727F4E00BF3E92 /* main.m in Sources */,
+				94C81F681972822B00BF3E92 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C81F4319727F4E00BF3E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C81F5519727F4E00BF3E92 /* SnakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C81F4D19727F4E00BF3E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C81F2519727F4D00BF3E92 /* Snake */;
+			targetProxy = 94C81F4C19727F4E00BF3E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C81F3219727F4E00BF3E92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C81F3319727F4E00BF3E92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94C81F3B19727F4E00BF3E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C81F3C19727F4E00BF3E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C81F5119727F4E00BF3E92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C81F5219727F4E00BF3E92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C81F5619727F4E00BF3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94C81F5719727F4E00BF3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C81F5919727F4E00BF3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "Snake/Snake-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agneypatel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94C81F5A19727F4E00BF3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "Snake/Snake-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agneypatel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94C81F5C19727F4E00BF3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnakeTests/SnakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94C81F5D19727F4E00BF3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snake/Snake-Prefix.pch";
+				INFOPLIST_FILE = "SnakeTests/SnakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C81F2119727F4D00BF3E92 /* Build configuration list for PBXProject "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C81F5619727F4E00BF3E92 /* Debug */,
+				94C81F5719727F4E00BF3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C81F5819727F4E00BF3E92 /* Build configuration list for PBXNativeTarget "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C81F5919727F4E00BF3E92 /* Debug */,
+				94C81F5A19727F4E00BF3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C81F5B19727F4E00BF3E92 /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C81F5C19727F4E00BF3E92 /* Debug */,
+				94C81F5D19727F4E00BF3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C81F1E19727F4D00BF3E92 /* Project object */;
+}
